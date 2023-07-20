@@ -57,10 +57,14 @@ nav > ul{
   .follow-us-border{
     border-radius: 8px;
   background: rgba(11, 2, 35, 0.10);
-   padding: 20px 15px;
+   /* padding: 20px 15px; */
+   padding: 15px 15px 25px 15px;
 
   }
+  
   /* end of nav bar section  */
+ 
+
 
   /* responsive for mobile scene  */
   @media screen and (max-width:576px) {
@@ -83,17 +87,11 @@ nav > ul{
   }
   /* medium device  */
 
-@media screen and (min-width:576px) and (max-width:976){
+@media screen and (min-width:576px) and (max-width:974px) {
   nav{
-      flex-direction: column;
-      padding: 2px 2px;
-      
-    }
-    
+    padding: 0;
+  }
   
-    
-    
-
 }
  
 
