@@ -57,13 +57,80 @@ nav > ul{
   .follow-us-border{
     border-radius: 8px;
   background: rgba(11, 2, 35, 0.10);
-   /* padding: 20px 15px; */
+   
    padding: 15px 15px 25px 15px;
 
   }
   
   /* end of nav bar section  */
+  /* goat section start  */
+  .goat-section{
+    background-color: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+    padding: 0 240px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .text-section{
+   padding: 178px 0 178px 0;
+   padding-right: 140px;
+  }
+ .play-like{
+  color: #0B0223;
+
+font-family: Work Sans;
+font-size: 2rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+margin: 0;
+ }
+  
+  .goat{
+    
+font-family: Work Sans;
+font-size: 4rem;
+
+font-weight: 800;
+
+text-transform: uppercase;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+margin: 0;
+  } 
+  .primary-paragraph{
+    color: #534C64;
+
+font-family: Work Sans;
+font-size: 0.9rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+  }
+  .Sign-In{
+    
+padding: 10px 20px;
+
+gap: 18px;
+border-radius: 48px;
+background: #FF42A5;
+color: #FFF;
+border: 1px solid  #FF42A5;
+  }
+ .Go-Rogue{
  
+padding: 10px 20px;
+
+gap: 18px;
+border-radius: 48px;
+background: #4EC5F7;;
+color: #FFF;
+border: 1px solid  #4EC5F7;
+ }
+ /* end the goat section */
 
 
   /* responsive for mobile scene  */
@@ -82,6 +149,22 @@ nav > ul{
     .img-div{
       justify-content: center;
     }
+    .goat-section{
+      flex-direction: column;
+      padding: 10px 10px;
+    }
+    .text-section{
+      padding: 0;
+      padding-left: 100px;
+      padding-bottom: 20px;
+      
+      
+    }
+    .goat-img img{
+      width: 100%;
+    }
+    
+    
 
     
   }
