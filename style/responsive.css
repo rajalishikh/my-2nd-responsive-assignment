@@ -132,10 +132,51 @@ border: 1px solid  #4EC5F7;
  }
  /* end the goat section */
 
+ /* start the play instantly section  */
+    
+ .Play-Instantly{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+  padding: 0 100px 0 170px;
+ }
+ .play-text{
+  margin-right: 170px;
+ }
+ .Play-Instantly-downloads{
+  text-align: right;
+
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+line-height: 40px; 
+ }
+ .primary-paragraph-tax{
+  color: #534C64;
+text-align: right;
+
+font-size: 0.8rem;
+
+font-weight: 400;
+line-height: 20px;
+ }
+ .sub-play{
+  color: #F948B2;
+ }
+ .cat-girl{
+  position: relative;
+  bottom: 290px;
+ }
+ .hourse-man {
+  position: relative;
+  left: 140px;
+ }
+ /* End  the play instantly section  */
+
 
   /* responsive for mobile scene  */
   @media screen and (max-width:576px) {
-    nav{
+    nav,.Play-Instantly{
       flex-direction: column;
       padding: 20px;
     }
@@ -163,6 +204,26 @@ border: 1px solid  #4EC5F7;
     .goat-img img{
       width: 100%;
     }
+    .image{
+      align-items: center;
+    }
+    .image ,.hourse-man{
+      width: 80%;
+      position: relative;
+      left: 70px;
+    }
+    .cat-girl{
+      width: 40%;
+      position: relative;
+      bottom: 110px;
+
+    }
+    .play-text{
+      margin: 0;
+    }
+    .Play-Instantly{
+      margin-right: 70px;
+    }
     
     
 
@@ -173,6 +234,14 @@ border: 1px solid  #4EC5F7;
 @media screen and (min-width:576px) and (max-width:974px) {
   nav{
     padding: 0;
+  
+  }
+  .Play-Instantly{
+    flex-direction: column;
+    margin: 0;
+  }
+  .image{
+    margin-top: 20px;
   }
   
 }
