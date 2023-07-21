@@ -203,6 +203,57 @@ line-height: 20px;
   position: relative;
   top: 20px;
  }
+ /* footer section  */
+ footer{
+  background-color: #0B0223;
+  width: 100%;
+height: 636px;
+text-align: center;
+ }
+ .footer-gamer{
+  padding-top: 90px;
+ }
+ .amr{
+  color: #FFF;
+ }
+ .footer-paragraph{
+  
+  display: inline-flex;
+ padding: 10px;
+align-items: flex-start;
+ 
+
+ }
+ p{
+  color: #FFF;
+  margin-right: 30px;
+  color: #FFF;
+text-align: center;
+
+font-size: 10px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+ }
+ .icons,.sub-para{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 50px;
+
+ }
+ .sub-para p,.last-para{
+  color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-family: Work Sans;
+font-size: 10px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+ }
+ 
+ 
 
 
 
@@ -265,6 +316,17 @@ line-height: 20px;
       position: static;
       bottom: 20px;
     }
+    .footer-paragraph,.icons{
+      display: grid;
+      grid-template-columns: repeat(3,1fr) ;
+     margin-right: 5px;
+    }
+    .sub-para{
+      display: grid;
+      grid-template-columns: repeat(2,1fr) ;
+     margin-right: 5px;
+
+    }
     
     
 
@@ -296,6 +358,32 @@ line-height: 20px;
     .nn{
       position: static;
       bottom: 20px;
+    }
+    .goat-section{
+      flex-direction: column;
+      padding: 0;
+    }
+    .text-section{
+      padding: 0;
+      padding-right: 0;
+      justify-content: center;
+    }
+    .primary-paragraph-tax{
+      text-align: center;
+    }
+    .Play-Instantly-downloads{
+      text-align: center;
+    }
+    .image,.hourse-man{
+      width: 100%;
+    }
+    .image,.cat-girl{
+      width: 50%;
+      position: static;
+      bottom: 100px;
+     
+      
+      
     }
   
 }
