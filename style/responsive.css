@@ -15,8 +15,9 @@ nav{
   display: flex;
   justify-content: space-between;
   background-color: #FFF;
-box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
-padding: 10px 250px;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+  padding: 10px 250px;
+  
 
 }
 .img-div{
@@ -186,6 +187,7 @@ line-height: 20px;
 	border: none;
 	padding: 0;
   margin-right: 20px;
+  padding-bottom: 40px;
 	
  }
  .five-button button:hover{
@@ -194,6 +196,7 @@ line-height: 20px;
    background: #FFF;
    padding: 0 10px 20px 10px;
    color: #FF42A5;
+   
    
  }
  .nn{
@@ -253,6 +256,15 @@ line-height: 20px;
     .Play-Instantly{
       margin-right: 70px;
     }
+    .five-button{
+      display: grid;
+      grid-template-columns: repeat(3,1fr) ;
+
+    }
+    .nn{
+      position: static;
+      bottom: 20px;
+    }
     
     
 
@@ -262,9 +274,10 @@ line-height: 20px;
 
 @media screen and (min-width:576px) and (max-width:974px) {
   nav{
-    padding: 0;
+   padding: 0;
   
   }
+  
   .Play-Instantly{
     flex-direction: column;
     margin: 0;
@@ -272,6 +285,18 @@ line-height: 20px;
   .image{
     margin-top: 20px;
   }
+  .play-text{
+    margin: 0;
+  }
+  .five-button{
+      display: grid;
+      grid-template-columns: repeat(5,1fr) ;
+
+    }
+    .nn{
+      position: static;
+      bottom: 20px;
+    }
   
 }
  
