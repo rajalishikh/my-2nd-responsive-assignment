@@ -132,6 +132,54 @@ color: #FFF;
 border: 1px solid  #4EC5F7;
  }
  /* end the goat section */
+ /* start the bonus section */
+ .bonus-sectionrr{
+  margin-top:100px;
+ }
+ .bonus-heading{
+  text-align: center;
+  margin-bottom: 50px;
+ }
+ 
+ .funny-videos{
+  color: #F948B2;
+ }
+ .Bonus-heading-games{
+  color: #0B0223;
+font-family: Work Sans;
+font-size: 2.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin: 0;
+ }
+ .game-image{
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  width: 50%; 
+ }
+ .bonus-para{
+  color: #534C64;
+font-family: Work Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px;
+text-align: start;
+
+ }
+ .img-pa img{
+  height: 60%;
+ }
+ .img-pa img:hover{
+  border: 1px solid #F948B2;
+  border-radius: 16px;
+  color: #000;
+  background-image: url(../icon/play-button\ 1.svg);
+  background-repeat: no-repeat;
+ }
+ /* end the bonus part */
 
  /* start the play instantly section  */
     
@@ -327,7 +375,15 @@ line-height: normal;
      margin-right: 5px;
 
     }
-    
+    .game-image{
+      flex-direction: column;
+      margin: 0;
+      padding-left: 50px;
+      
+    }
+    .bonus-sectionrr{
+      margin: 0;
+    }
     
 
     
@@ -339,6 +395,11 @@ line-height: normal;
    padding: 0;
   
   }
+  .game-image{
+      flex-direction: column;
+      
+      
+    }
   
   .Play-Instantly{
     flex-direction: column;
